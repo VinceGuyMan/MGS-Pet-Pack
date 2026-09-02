@@ -18,6 +18,8 @@ Copy a folder into `~/.codex/pets/` to install it. See [docs/INSTALLATION.md](..
 | `campbell` | Colonel Campbell (MGS1) |
 | `decoyoctopus` | Decoy Octopus |
 | `emma` | Emma Emmerich |
+| `fatman` | Fatman |
+| `fortune` | Fortune |
 | `genomesoldier` | Genome Soldier (Arctic Camo) |
 | `genomesoldier_black` | Genome Soldier (Black Tactical) |
 | `genomesoldier_hazmat` | Genome Soldier (Hazmat Gas Mask) |
@@ -36,6 +38,7 @@ Copy a folder into `~/.codex/pets/` to install it. See [docs/INSTALLATION.md](..
 | `sniperwolf` | Sniper Wolf |
 | `solidsnake` | Solid Snake (MGS1) |
 | `solidussnake` | Solidus Snake |
+| `vamp` | Vamp |
 | `vulcanraven` | Vulcan Raven |
 
 `emma`, `metalgearray`, `raiden`, and `solidussnake` are bonus *Metal Gear Solid 2* pets.

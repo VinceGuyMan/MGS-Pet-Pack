@@ -8,7 +8,7 @@ This is an unofficial, non-commercial fan-made pet pack. Metal Gear Solid and re
 
 ## Pets
 
-22 Codex v2 pets: Shadow Moses / *Metal Gear Solid* characters, Genome Soldier variants, and a *Metal Gear Solid 2* bonus set.
+25 Codex v2 pets: Shadow Moses / *Metal Gear Solid* characters, Genome Soldier variants, and a *Metal Gear Solid 2* bonus set.
 
 Preview GIFs loop idle, waving, and waiting poses.
 
@@ -48,6 +48,9 @@ Preview GIFs loop idle, waving, and waiting poses.
 | ![Solidus Snake](docs/previews/solidussnake.gif) | **Solidus Snake** | [`pets/solidussnake`](pets/solidussnake) | Exoskeleton, snake arms, dual HF swords. |
 | ![Emma Emmerich](docs/previews/emma.gif) | **Emma Emmerich** | [`pets/emma`](pets/emma) | E.E. with parrot and GW optical disc. |
 | ![Metal Gear RAY](docs/previews/metalgearray.gif) | **Metal Gear RAY** | [`pets/metalgearray`](pets/metalgearray) | Amphibious bipedal mecha. |
+| ![Fatman](docs/previews/fatman.gif) | **Fatman** | [`pets/fatman`](pets/fatman) | EOD bomber on inline skates. |
+| ![Fortune](docs/previews/fortune.gif) | **Fortune** | [`pets/fortune`](pets/fortune) | Dead Cell commander with Railgun and electromagnetic shield. |
+| ![Vamp](docs/previews/vamp.gif) | **Vamp** | [`pets/vamp`](pets/vamp) | Acrobatic Dead Cell knife fighter. |
 
 A file-level listing lives in [INVENTORY.md](INVENTORY.md).
 
@@ -95,6 +98,8 @@ These pets are packaged for Codex custom pets:
 - Spritesheets are `1536x2288` (8×11 cells of `192×208`)
 - Each pet provides `pet.json` plus `spritesheet.webp` (and a PNG copy)
 - Install location is `~/.codex/pets/<pet-id>/`
+
+Run `python3 tools/validate_pack.py` before publishing changes.
 
 This pack does not claim compatibility with other pet hosts unless those hosts read the same Codex v2 folder layout.
 

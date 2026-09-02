@@ -27,6 +27,11 @@ Spritesheets should be `1536x2288` (`192x208` cells, 8 columns × 11 rows).
 - Update `README.md`, `INVENTORY.md`, and `pets/README.md` when adding or removing a pet
 - Still previews belong in `docs/previews/<pet-id>.png`
 - Pose slideshow GIFs (idle / waving / waiting) belong in `docs/previews/<pet-id>.gif`
+- Run `python3 tools/validate_pack.py` before submitting.
+
+## Manifest compatibility
+
+Both the original compact manifest (`displayName` plus `spritesheetPath`) and the expanded manifest (`name`, `spriteDimensions`, `description`, and `behavior`) are supported. New pets should prefer the expanded form.
 
 ## Disclaimer
 
