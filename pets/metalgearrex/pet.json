@@ -1,0 +1,14 @@
+{
+  "id": "metalgearrex",
+  "name": "Metal Gear REX",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Metal Gear REX bipedal nuclear tank from Shadow Moses.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}
