@@ -73,16 +73,16 @@ Full steps, including one-pet install, full-pack install, updates, and uninstall
 ### Install one pet
 
 ```bash
-git clone https://github.com/VinceGuyMan/MGS1-Pet-Pack.git
-cp -R MGS1-Pet-Pack/pets/solidsnake ~/.codex/pets/
+git clone https://github.com/VinceGuyMan/MGS-Pet-Pack.git
+cp -R MGS-Pet-Pack/pets/solidsnake ~/.codex/pets/
 ```
 
 ### Install the full pack
 
 ```bash
-git clone https://github.com/VinceGuyMan/MGS1-Pet-Pack.git
+git clone https://github.com/VinceGuyMan/MGS-Pet-Pack.git
 mkdir -p ~/.codex/pets
-cp -R MGS1-Pet-Pack/pets/*/ ~/.codex/pets/
+cp -R MGS-Pet-Pack/pets/*/ ~/.codex/pets/
 ```
 
 Restart Codex after copying so it picks up the new pets. In Codex, choose a custom pet from the installed folder names.
@@ -100,9 +100,9 @@ This pack does not claim compatibility with other pet hosts unless those hosts r
 
 ## Download
 
-- Repository: [github.com/VinceGuyMan/MGS1-Pet-Pack](https://github.com/VinceGuyMan/MGS1-Pet-Pack)
-- Source ZIP: [Download the latest source](https://github.com/VinceGuyMan/MGS1-Pet-Pack/archive/refs/heads/vinceguyman-publish-pet-pack.zip)
-- Releases: [github.com/VinceGuyMan/MGS1-Pet-Pack/releases](https://github.com/VinceGuyMan/MGS1-Pet-Pack/releases)
+- Repository: [github.com/VinceGuyMan/MGS-Pet-Pack](https://github.com/VinceGuyMan/MGS-Pet-Pack)
+- Source ZIP: [Download the latest source](https://github.com/VinceGuyMan/MGS-Pet-Pack/archive/refs/heads/vinceguyman-publish-pet-pack.zip)
+- Releases: [github.com/VinceGuyMan/MGS-Pet-Pack/releases](https://github.com/VinceGuyMan/MGS-Pet-Pack/releases)
 
 ## Fan-project disclaimer
 
