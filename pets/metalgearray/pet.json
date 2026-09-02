@@ -1,0 +1,14 @@
+{
+  "id": "metalgearray",
+  "name": "Metal Gear RAY",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Metal Gear RAY amphibious bipedal mecha with water jet cutter and missile pods.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

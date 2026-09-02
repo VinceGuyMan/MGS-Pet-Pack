@@ -1,0 +1,14 @@
+{
+  "id": "genomesoldier_black",
+  "name": "Genome Soldier (Black Tactical)",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Next-Generation Special Forces elite guard in charcoal black stealth armor with ballistic shield.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

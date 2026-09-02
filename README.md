@@ -8,23 +8,46 @@ This is an unofficial, non-commercial fan-made pet pack. Metal Gear Solid and re
 
 ## Pets
 
-The pack includes 12 Shadow Moses / *Metal Gear Solid* pets, plus Raiden from *Metal Gear Solid 2* as a bonus.
+22 Codex v2 pets: Shadow Moses / *Metal Gear Solid* characters, Genome Soldier variants, and a *Metal Gear Solid 2* bonus set.
+
+Preview GIFs loop idle, waving, and waiting poses.
+
+### Shadow Moses
 
 | Preview | Pet | Folder | Description |
 | --- | --- | --- | --- |
-| ![Solid Snake](docs/previews/solidsnake.png) | **Solid Snake (MGS1)** | [`pets/solidsnake`](pets/solidsnake) | FOXHOUND operative in sneaking suit. |
-| ![Liquid Snake](docs/previews/liquidsnake.png) | **Liquid Snake (MGS1)** | [`pets/liquidsnake`](pets/liquidsnake) | FOXHOUND commander and Snake's twin. |
-| ![Gray Fox](docs/previews/grayfox.png) | **Gray Fox / Cyborg Ninja** | [`pets/grayfox`](pets/grayfox) | Cyborg ninja from Shadow Moses. |
-| ![Revolver Ocelot](docs/previews/ocelot.png) | **Revolver Ocelot** | [`pets/ocelot`](pets/ocelot) | FOXHOUND gunslinger. |
-| ![Otacon](docs/previews/otacon.png) | **Dr. Hal 'Otacon' Emmerich** | [`pets/otacon`](pets/otacon) | Shadow Moses engineer and Snake's support. |
-| ![Colonel Campbell](docs/previews/campbell.png) | **Colonel Campbell (MGS1)** | [`pets/campbell`](pets/campbell) | Mission control over codec. |
-| ![Psycho Mantis](docs/previews/psychomantis.png) | **Psycho Mantis** | [`pets/psychomantis`](pets/psychomantis) | Psychic member of FOXHOUND. |
-| ![Sniper Wolf](docs/previews/sniperwolf.png) | **Sniper Wolf** | [`pets/sniperwolf`](pets/sniperwolf) | FOXHOUND sniper. |
-| ![Vulcan Raven](docs/previews/vulcanraven.png) | **Vulcan Raven** | [`pets/vulcanraven`](pets/vulcanraven) | FOXHOUND heavy weapons specialist. |
-| ![Decoy Octopus](docs/previews/decoyoctopus.png) | **Decoy Octopus** | [`pets/decoyoctopus`](pets/decoyoctopus) | FOXHOUND impersonator. |
-| ![Genome Soldier](docs/previews/genomesoldier.png) | **Genome Soldier (Arctic Camo)** | [`pets/genomesoldier`](pets/genomesoldier) | Shadow Moses garrison soldier. |
-| ![Metal Gear REX](docs/previews/metalgearrex.png) | **Metal Gear REX** | [`pets/metalgearrex`](pets/metalgearrex) | Bipedal nuclear tank from Shadow Moses. |
-| ![Raiden](docs/previews/raiden.png) | **Raiden (MGS2)** | [`pets/raiden`](pets/raiden) | Bonus pet from *Sons of Liberty*. |
+| ![Solid Snake](docs/previews/solidsnake.gif) | **Solid Snake (MGS1)** | [`pets/solidsnake`](pets/solidsnake) | FOXHOUND operative in sneaking suit. |
+| ![Liquid Snake](docs/previews/liquidsnake.gif) | **Liquid Snake (MGS1)** | [`pets/liquidsnake`](pets/liquidsnake) | FOXHOUND commander and Snake's twin. |
+| ![Gray Fox](docs/previews/grayfox.gif) | **Gray Fox / Cyborg Ninja** | [`pets/grayfox`](pets/grayfox) | Cyborg ninja from Shadow Moses. |
+| ![Revolver Ocelot](docs/previews/ocelot.gif) | **Revolver Ocelot** | [`pets/ocelot`](pets/ocelot) | FOXHOUND gunslinger. |
+| ![Otacon](docs/previews/otacon.gif) | **Dr. Hal 'Otacon' Emmerich** | [`pets/otacon`](pets/otacon) | Shadow Moses engineer and Snake's support. |
+| ![Colonel Campbell](docs/previews/campbell.gif) | **Colonel Campbell (MGS1)** | [`pets/campbell`](pets/campbell) | Mission control over codec. |
+| ![Mei Ling](docs/previews/meiling.gif) | **Mei Ling** | [`pets/meiling`](pets/meiling) | Data analyst with Soliton Radar. |
+| ![Meryl Silverburgh](docs/previews/meryl.gif) | **Meryl Silverburgh** | [`pets/meryl`](pets/meryl) | Cadet with a Desert Eagle. |
+| ![Nastasha Romanenko](docs/previews/nastasha.gif) | **Nastasha Romanenko** | [`pets/nastasha`](pets/nastasha) | Nuclear analyst with a dossier. |
+| ![Psycho Mantis](docs/previews/psychomantis.gif) | **Psycho Mantis** | [`pets/psychomantis`](pets/psychomantis) | Psychic member of FOXHOUND. |
+| ![Sniper Wolf](docs/previews/sniperwolf.gif) | **Sniper Wolf** | [`pets/sniperwolf`](pets/sniperwolf) | FOXHOUND sniper. |
+| ![Vulcan Raven](docs/previews/vulcanraven.gif) | **Vulcan Raven** | [`pets/vulcanraven`](pets/vulcanraven) | FOXHOUND heavy weapons specialist. |
+| ![Decoy Octopus](docs/previews/decoyoctopus.gif) | **Decoy Octopus** | [`pets/decoyoctopus`](pets/decoyoctopus) | FOXHOUND impersonator. |
+| ![Metal Gear REX](docs/previews/metalgearrex.gif) | **Metal Gear REX** | [`pets/metalgearrex`](pets/metalgearrex) | Bipedal nuclear tank from Shadow Moses. |
+
+### Genome Soldiers
+
+| Preview | Pet | Folder | Description |
+| --- | --- | --- | --- |
+| ![Genome Soldier Arctic](docs/previews/genomesoldier.gif) | **Genome Soldier (Arctic Camo)** | [`pets/genomesoldier`](pets/genomesoldier) | Shadow Moses garrison soldier. |
+| ![Genome Soldier Black](docs/previews/genomesoldier_black.gif) | **Genome Soldier (Black Tactical)** | [`pets/genomesoldier_black`](pets/genomesoldier_black) | Elite guard in charcoal stealth armor. |
+| ![Genome Soldier Hazmat](docs/previews/genomesoldier_hazmat.gif) | **Genome Soldier (Hazmat Gas Mask)** | [`pets/genomesoldier_hazmat`](pets/genomesoldier_hazmat) | Chemical warfare sentry in an NBC suit. |
+| ![Genome Soldier Woodland](docs/previews/genomesoldier_woodland.gif) | **Genome Soldier (Woodland)** | [`pets/genomesoldier_woodland`](pets/genomesoldier_woodland) | Interior sentry in olive woodland camo. |
+
+### MGS2 bonus
+
+| Preview | Pet | Folder | Description |
+| --- | --- | --- | --- |
+| ![Raiden](docs/previews/raiden.gif) | **Raiden (MGS2)** | [`pets/raiden`](pets/raiden) | Foxhound recruit from *Sons of Liberty*. |
+| ![Solidus Snake](docs/previews/solidussnake.gif) | **Solidus Snake** | [`pets/solidussnake`](pets/solidussnake) | Exoskeleton, snake arms, dual HF swords. |
+| ![Emma Emmerich](docs/previews/emma.gif) | **Emma Emmerich** | [`pets/emma`](pets/emma) | E.E. with parrot and GW optical disc. |
+| ![Metal Gear RAY](docs/previews/metalgearray.gif) | **Metal Gear RAY** | [`pets/metalgearray`](pets/metalgearray) | Amphibious bipedal mecha. |
 
 A file-level listing lives in [INVENTORY.md](INVENTORY.md).
 
@@ -93,7 +116,7 @@ See [NOTICE.md](NOTICE.md).
 
 - Pet pack assembled and published by [VinceGuyMan](https://github.com/VinceGuyMan)
 - Pets follow the Codex v2 custom-pet layout (`pet.json` + spritesheet)
-- *Metal Gear Solid*, related characters, and Metal Gear REX belong to their respective rights holders
+- *Metal Gear Solid*, related characters, Metal Gear REX, and Metal Gear RAY belong to their respective rights holders
 
 ## License
 

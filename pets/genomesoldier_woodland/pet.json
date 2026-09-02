@@ -1,0 +1,14 @@
+{
+  "id": "genomesoldier_woodland",
+  "name": "Genome Soldier (Woodland)",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Next-Generation Special Forces interior sentry in olive drab woodland camo with FAMAS.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

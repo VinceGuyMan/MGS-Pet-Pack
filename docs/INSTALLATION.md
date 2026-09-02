@@ -70,7 +70,7 @@ mkdir -p ~/.codex/pets
 cp -R pets/*/ ~/.codex/pets/
 ```
 
-That copies the 13 pet directories and leaves `pets/README.md` behind.
+That copies the 22 pet directories and leaves `pets/README.md` behind.
 
 ## Update pets
 
@@ -102,16 +102,25 @@ Remove the whole pack (only the folders from this repository):
 rm -rf \
   ~/.codex/pets/campbell \
   ~/.codex/pets/decoyoctopus \
+  ~/.codex/pets/emma \
   ~/.codex/pets/genomesoldier \
+  ~/.codex/pets/genomesoldier_black \
+  ~/.codex/pets/genomesoldier_hazmat \
+  ~/.codex/pets/genomesoldier_woodland \
   ~/.codex/pets/grayfox \
   ~/.codex/pets/liquidsnake \
+  ~/.codex/pets/meiling \
+  ~/.codex/pets/meryl \
+  ~/.codex/pets/metalgearray \
   ~/.codex/pets/metalgearrex \
+  ~/.codex/pets/nastasha \
   ~/.codex/pets/ocelot \
   ~/.codex/pets/otacon \
   ~/.codex/pets/psychomantis \
   ~/.codex/pets/raiden \
   ~/.codex/pets/sniperwolf \
   ~/.codex/pets/solidsnake \
+  ~/.codex/pets/solidussnake \
   ~/.codex/pets/vulcanraven
 ```
 

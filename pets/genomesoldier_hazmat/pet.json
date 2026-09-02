@@ -1,0 +1,14 @@
+{
+  "id": "genomesoldier_hazmat",
+  "name": "Genome Soldier (Hazmat Gas Mask)",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Next-Generation Special Forces chemical warfare sentry in yellow NBC hazmat suit and gas mask.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}
