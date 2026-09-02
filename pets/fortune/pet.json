@@ -1,0 +1,14 @@
+{
+  "id": "fortune",
+  "name": "Fortune",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Fortune from Metal Gear Solid 2 with heavy Railgun, flowing duster cape, and electromagnetic shield.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "vamp",
+  "name": "Vamp",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Immortal acrobatic Romanian knife fighter and Dead Cell specialist with shadow manipulation and water running.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

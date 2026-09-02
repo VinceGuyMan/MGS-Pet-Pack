@@ -1,0 +1,14 @@
+{
+  "id": "fatman",
+  "name": "Fatman",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Fatman from Metal Gear Solid 2 with heavy olive EOD blast suit, inline roller skates, wine glass, and C4 explosives.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

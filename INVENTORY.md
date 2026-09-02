@@ -7,6 +7,7 @@ Included pets, copied into `pets/` with their original folder layout.
 | `campbell` | Colonel Campbell (MGS1) | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
 | `decoyoctopus` | Decoy Octopus | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
 | `emma` | Emma Emmerich | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
+| `fatman` | Fatman | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
 | `genomesoldier` | Genome Soldier (Arctic Camo) | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
 | `genomesoldier_black` | Genome Soldier (Black Tactical) | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
 | `genomesoldier_hazmat` | Genome Soldier (Hazmat Gas Mask) | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
@@ -25,9 +26,11 @@ Included pets, copied into `pets/` with their original folder layout.
 | `sniperwolf` | Sniper Wolf | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
 | `solidsnake` | Solid Snake (MGS1) | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
 | `solidussnake` | Solidus Snake | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
+| `vamp` | Vamp | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
 | `vulcanraven` | Vulcan Raven | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
+| `fortune` | Fortune | `pet.json` | `spritesheet.webp`, `spritesheet.png` |
 
-All 22 pets use `spriteVersionNumber: 2`. Spritesheets are `1536x2288`.
+All 25 pets use `spriteVersionNumber: 2`. Spritesheets are `1536x2288`.
 
 `emma`, `metalgearray`, `raiden`, and `solidussnake` are bonus pets from *Metal Gear Solid 2*.
 
