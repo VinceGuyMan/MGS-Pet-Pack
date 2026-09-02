@@ -1,6 +1,6 @@
 # MGS Pet Pack
 
-Unofficial fan-made Metal Gear Solid-inspired desktop pets for [Codex](https://github.com/openai/codex).
+Unofficial fan-made Metal Gear Solid-inspired desktop pets for [Codex](https://github.com/openai/codex) / [Hermes](https://hermes-agent.nousresearch.com) and [OpenPets](https://openpets.dev).
 
 This repository is a downloadable pet pack. Each included pet is a complete Codex v2 package: a `pet.json` manifest plus spritesheets.
 
