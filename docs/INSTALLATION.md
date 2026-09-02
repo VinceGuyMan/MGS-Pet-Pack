@@ -28,14 +28,14 @@ Copy the pet folder as-is. Do not flatten the files into `~/.codex/pets/` itself
 Clone the repository:
 
 ```bash
-git clone https://github.com/VinceGuyMan/MGS1-Pet-Pack.git
-cd MGS1-Pet-Pack
+git clone https://github.com/VinceGuyMan/MGS-Pet-Pack.git
+cd MGS-Pet-Pack
 ```
 
 Or download a source ZIP from GitHub:
 
-- [Latest source ZIP](https://github.com/VinceGuyMan/MGS1-Pet-Pack/archive/refs/heads/vinceguyman-publish-pet-pack.zip)
-- [Releases](https://github.com/VinceGuyMan/MGS1-Pet-Pack/releases)
+- [Latest source ZIP](https://github.com/VinceGuyMan/MGS-Pet-Pack/archive/refs/heads/vinceguyman-publish-pet-pack.zip)
+- [Releases](https://github.com/VinceGuyMan/MGS-Pet-Pack/releases)
 
 Create the destination directory if it does not exist:
 
