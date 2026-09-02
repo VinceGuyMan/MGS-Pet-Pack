@@ -1,4 +1,4 @@
-# MGS1 Pet Pack
+# MGS Pet Pack
 
 Unofficial fan-made Metal Gear Solid-inspired desktop pets for [Codex](https://github.com/openai/codex).
 
