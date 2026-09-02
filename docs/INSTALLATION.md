@@ -1,44 +1,147 @@
-Installation — Using these pets locally
+# Installation
 
-This repository intentionally does not include the pet asset files discovered on the local machine. Use these instructions to install pets you legally own or have permission to redistribute.
+These pets install into the Codex custom-pet directory:
 
-Install a single pet
+```text
+~/.codex/pets/
+```
 
-1. On your machine, locate the pet folder you own (example):
+On most machines that expands to:
 
-   ~/.codex/pets/solidsnake
+```text
+$HOME/.codex/pets/<pet-id>/
+```
 
-2. Copy the folder to your Codex pets directory:
+Each included pet already uses that folder layout:
 
-   cp -R /path/to/your/local/copy/solidsnake ~/.codex/pets/
+```text
+pets/solidsnake/
+├── pet.json
+├── spritesheet.png
+└── spritesheet.webp
+```
 
-3. Restart the Codex/OpenPets app (or the companion pet runner) so it detects the new pet.
+Copy the pet folder as-is. Do not flatten the files into `~/.codex/pets/` itself.
 
-Install the entire collection from a local copy
+## Get the pack
 
-1. If you have a local archive or zipped collection of pet folders, extract it somewhere, then copy every pet folder into `~/.codex/pets/`:
+Clone the repository:
 
-   cp -R /path/to/extracted/pet-collection/* ~/.codex/pets/
+```bash
+git clone https://github.com/VinceGuyMan/MGS1-Pet-Pack.git
+cd MGS1-Pet-Pack
+```
 
-2. Restart the pet host app.
+Or download a source ZIP from GitHub:
 
-Updating an installed pet
+- [Latest source ZIP](https://github.com/VinceGuyMan/MGS1-Pet-Pack/archive/refs/heads/vinceguyman-publish-pet-pack.zip)
+- [Releases](https://github.com/VinceGuyMan/MGS1-Pet-Pack/releases)
 
-- Replace the pet subfolder inside `~/.codex/pets/<pet-name>/` with the updated folder. Keep a backup of the previous version.
+Create the destination directory if it does not exist:
 
-Removing a pet
+```bash
+mkdir -p ~/.codex/pets
+```
 
-- To remove a pet: rm -rf ~/.codex/pets/<pet-name>
+## Install one pet
 
-Compatibility notes
+Copy a single pet folder into `~/.codex/pets/`:
 
-- The inspected manifests report `spriteVersionNumber: 2` (Codex v2 style). Confirm your pet host supports v2 before installing.
-- This repository does not claim compatibility with third-party pet ecosystems (OpenPets, Hermes, Petdex) unless you verify those ecosystems accept `spriteVersionNumber: 2` and the same spritesheet layout.
+```bash
+cp -R pets/solidsnake ~/.codex/pets/
+```
 
-Verifying a pet
+The result should look like:
 
-- Check the pet folder contains `pet.json` and a spritesheet (PNG or WEBP) sized for `192x208` cells (typical Codex v2). If unsure, inspect `pet.json` for `spriteVersionNumber` and `spriteDimensions`.
+```text
+~/.codex/pets/solidsnake/pet.json
+~/.codex/pets/solidsnake/spritesheet.webp
+~/.codex/pets/solidsnake/spritesheet.png
+```
 
-Legal / licensing
+Repeat with any other folder under `pets/`, for example `pets/ocelot` or `pets/metalgearrex`.
 
-- Only copy and distribute pets if you have the rights to do so. This repo's documentation and scripts are MIT-licensed, but that does not apply to third-party pet art.
+## Install the full pack
+
+Copy every pet folder:
+
+```bash
+mkdir -p ~/.codex/pets
+cp -R pets/*/ ~/.codex/pets/
+```
+
+That copies the 13 pet directories and leaves `pets/README.md` behind.
+
+## Update pets
+
+Replace an installed pet folder with the version from this repository. Keep a backup if you have local edits.
+
+```bash
+cp -R ~/.codex/pets/solidsnake ~/.codex/pets/solidsnake.bak
+rm -rf ~/.codex/pets/solidsnake
+cp -R pets/solidsnake ~/.codex/pets/
+```
+
+To refresh the whole pack from a newer clone or release:
+
+```bash
+cp -R pets/*/ ~/.codex/pets/
+```
+
+## Uninstall pets
+
+Remove one pet:
+
+```bash
+rm -rf ~/.codex/pets/solidsnake
+```
+
+Remove the whole pack (only the folders from this repository):
+
+```bash
+rm -rf \
+  ~/.codex/pets/campbell \
+  ~/.codex/pets/decoyoctopus \
+  ~/.codex/pets/genomesoldier \
+  ~/.codex/pets/grayfox \
+  ~/.codex/pets/liquidsnake \
+  ~/.codex/pets/metalgearrex \
+  ~/.codex/pets/ocelot \
+  ~/.codex/pets/otacon \
+  ~/.codex/pets/psychomantis \
+  ~/.codex/pets/raiden \
+  ~/.codex/pets/sniperwolf \
+  ~/.codex/pets/solidsnake \
+  ~/.codex/pets/vulcanraven
+```
+
+That command only deletes those named folders. It does not touch other custom pets you may have installed.
+
+## After copying
+
+Restart Codex so it rescans `~/.codex/pets/`. Then select the pet from Codex's custom pet / avatar options. Folder names match the pet ids: `solidsnake`, `ocelot`, `metalgearrex`, and so on.
+
+## Compatibility
+
+Included manifests use `spriteVersionNumber: 2`. Spritesheets are `1536x2288` with `192x208` cells.
+
+This pack is documented for the Codex custom-pet path above. It does not claim support for other pet hosts unless those hosts read the same folder layout and v2 manifest fields.
+
+## Verify a pet
+
+A working pet folder should contain:
+
+- `pet.json`
+- `spritesheet.webp` (referenced by most manifests)
+- `spritesheet.png` (included alongside the WebP)
+
+Example `pet.json`:
+
+```json
+{
+  "id": "solidsnake",
+  "displayName": "Solid Snake (MGS1)",
+  "spriteVersionNumber": 2,
+  "spritesheetPath": "spritesheet.webp"
+}
+```

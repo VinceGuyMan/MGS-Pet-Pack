@@ -1,11 +1,32 @@
-pets/ — assets intentionally omitted
+# Pets
 
-This directory is a placeholder. The original live pets inspected at `~/.codex/pets` were not copied into this public repository because they appear to be third-party copyrighted characters.
+This directory contains the downloadable Codex v2 pets.
 
-If you have redistribution rights and want to include pet assets in this repository:
+Each subdirectory is a complete pet:
 
-1. Place each pet folder at `pets/<pet-slug>/` with the same internal structure as the live Codex pet folder (for example: `pet.json`, `spritesheet.webp`, `spritesheet.png`).
-2. Add a short `README.md` inside the pet folder listing provenance and license information.
-3. Open a pull request and reference any redistribution permission or license.
+```text
+<pet-id>/
+├── pet.json
+├── spritesheet.png
+└── spritesheet.webp
+```
 
-Until assets are added, this repository contains only documentation and metadata.
+Copy a folder into `~/.codex/pets/` to install it. See [docs/INSTALLATION.md](../docs/INSTALLATION.md).
+
+| Folder | Display name |
+| --- | --- |
+| `campbell` | Colonel Campbell (MGS1) |
+| `decoyoctopus` | Decoy Octopus |
+| `genomesoldier` | Genome Soldier (Arctic Camo) |
+| `grayfox` | Gray Fox / Cyborg Ninja |
+| `liquidsnake` | Liquid Snake (MGS1) |
+| `metalgearrex` | Metal Gear REX |
+| `ocelot` | Revolver Ocelot |
+| `otacon` | Dr. Hal 'Otacon' Emmerich |
+| `psychomantis` | Psycho Mantis |
+| `raiden` | Raiden (MGS2) |
+| `sniperwolf` | Sniper Wolf |
+| `solidsnake` | Solid Snake (MGS1) |
+| `vulcanraven` | Vulcan Raven |
+
+`raiden` is included as a bonus *Metal Gear Solid 2* pet.
