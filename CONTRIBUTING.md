@@ -25,7 +25,8 @@ Spritesheets should be `1536x2288` (`192x208` cells, 8 columns × 11 rows).
 - Prefer one pet per pull request
 - Do not regenerate or restyle existing pets unless the change is a requested fix
 - Update `README.md`, `INVENTORY.md`, and `pets/README.md` when adding or removing a pet
-- Idle-frame previews for the README gallery belong in `docs/previews/<pet-id>.png`
+- Still previews belong in `docs/previews/<pet-id>.png`
+- Pose slideshow GIFs (idle / waving / waiting) belong in `docs/previews/<pet-id>.gif`
 
 ## Disclaimer
 

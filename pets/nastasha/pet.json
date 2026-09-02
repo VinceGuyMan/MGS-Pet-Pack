@@ -1,0 +1,14 @@
+{
+  "id": "nastasha",
+  "name": "Nastasha Romanenko",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Nastasha Romanenko from Metal Gear Solid 1 with nuclear dossier and smoking cigarette.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

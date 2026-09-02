@@ -1,0 +1,14 @@
+{
+  "id": "solidussnake",
+  "name": "Solidus Snake",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Solidus Snake from Metal Gear Solid 2 with powered exoskeleton armor, snake arms, and dual high-frequency swords.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

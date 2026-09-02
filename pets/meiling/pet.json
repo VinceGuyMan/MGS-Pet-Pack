@@ -1,0 +1,14 @@
+{
+  "id": "meiling",
+  "name": "Mei Ling",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Mei Ling from Metal Gear Solid 1 with Soliton Radar and Chinese proverbs.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "meryl",
+  "name": "Meryl Silverburgh",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Meryl Silverburgh from Metal Gear Solid 1 with Desert Eagle .50 AE.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}

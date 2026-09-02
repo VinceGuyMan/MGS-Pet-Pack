@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.1.0
+
+- Add nine pets: Mei Ling, Meryl, Nastasha, Emma, Solidus Snake, Metal Gear RAY, and three Genome Soldier variants
+- Replace still README previews with looping idle / waving / waiting GIF slideshows for every pet
+
 ## 1.0.0
 
 - Rewrite repository documentation so it describes the included pets

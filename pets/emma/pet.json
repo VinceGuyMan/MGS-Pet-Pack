@@ -1,0 +1,14 @@
+{
+  "id": "emma",
+  "name": "Emma Emmerich",
+  "spriteVersionNumber": 2,
+  "spriteDimensions": {
+    "width": 192,
+    "height": 208
+  },
+  "description": "Emma Emmerich (E.E.) from Metal Gear Solid 2 with pet parrot and GW AI virus optical disc.",
+  "behavior": {
+    "walkSpeed": 1.0,
+    "lookInterval": 3500
+  }
+}
