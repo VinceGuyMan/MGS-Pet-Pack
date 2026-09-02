@@ -1,23 +1,41 @@
 MIT License
 
-Copyright (c) 2026 Copilot User
+Copyright (c) 2026 VinceGuyMan
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
-of this repository's documentation and scripts (the "Software"), to deal in
-the Software without restriction, including without limitation the rights to
-use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
-of the Software, and to permit persons to whom the Software is furnished to
-do so, subject to the following conditions:
+of this repository's original documentation and helper scripts (the "Software"),
+to deal in the Software without restriction, including without limitation the
+rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 
-Note: This license applies to repository documentation and helper scripts only. It does NOT grant rights to redistribute third-party pet assets referenced in INVENTORY.md.
+---
+
+License scope
+
+1. Original repository documentation and helper scripts
+   Covered by the MIT license above.
+
+2. Original pet work created for this repository
+   The pet folders under pets/ (manifests, spritesheets, and related packaging)
+   are original files created for this unofficial fan project. They are not
+   Metal Gear Solid game assets copied out of a Konami product.
+
+3. Third-party intellectual property
+   Metal Gear Solid and related characters, names, trademarks, and intellectual
+   property belong to their respective rights holders. This MIT license does not
+   grant any rights over that IP, and it does not claim ownership of Metal Gear
+   Solid, Konami characters, trademarks, names, or associated IP.
+
+See NOTICE.md for the fan-project disclaimer.

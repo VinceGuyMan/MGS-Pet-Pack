@@ -1,15 +1,32 @@
-Contributing
+# Contributing
 
-This project is a documented snapshot of a local Codex pet collection. Because many discovered pets reference third-party IP, contributions must follow these rules:
+This repository is a Codex v2 pet pack. Keep additions in the same layout as the existing pets.
 
-- Only submit pets you created yourself or have explicit written redistribution rights for.
-- Each contributed pet must include:
-  - a valid `pet.json` manifest with `spriteVersionNumber` and `id`/`displayName`
-  - the spritesheet files (PNG or WEBP) matching the manifest
-  - an optional preview GIF or PNG named `preview.*`
-  - a short `README.md` describing provenance and author/contact info
-- Do not submit pets that are direct copies of copyrighted characters unless you provide proof of redistribution rights.
-- Keep individual PRs small: one pet per PR when possible.
-- Tests and validation: visually inspect the spritesheet at the expected cell size and verify `pet.json` is present.
+## Pet folder layout
 
-If uncertain about licensing, open an issue and attach the `pet.json` for review before submitting assets.
+```text
+pets/<pet-id>/
+├── pet.json
+├── spritesheet.png
+└── spritesheet.webp
+```
+
+`pet.json` should include at least:
+
+- `id` matching the folder name
+- `displayName` or `name`
+- `spriteVersionNumber`: `2`
+- `spritesheetPath` when the pet uses `spritesheet.webp`
+
+Spritesheets should be `1536x2288` (`192x208` cells, 8 columns × 11 rows).
+
+## Pull requests
+
+- Prefer one pet per pull request
+- Do not regenerate or restyle existing pets unless the change is a requested fix
+- Update `README.md`, `INVENTORY.md`, and `pets/README.md` when adding or removing a pet
+- Idle-frame previews for the README gallery belong in `docs/previews/<pet-id>.png`
+
+## Disclaimer
+
+This is an unofficial fan-made pack. See [NOTICE.md](NOTICE.md).
